@@ -67,21 +67,21 @@
         <fieldset>
             <legend>Products</legend>
             <?php foreach ($products AS $i => $product): ?>
-                <label>
-                    <input type="checkbox" value="1" name="products[<?php echo $i ?>]"/> <?php echo $product['name'] ?> -
+                <label class="text-content">
+                    <input class="checkbox" type="checkbox" value="1" onclick="isCheckbooxCheched()" name="products[<?php echo $i ?>]"/> <?php echo $product['name'] ?> -
                     &euro; <?php echo number_format($product['price'], 2) ?></label><br/>
             <?php endforeach; ?>
         </fieldset>
         
         <label>
-            <input type="checkbox" name="express_delivery" value="5" /> 
+            <input type="checkbox" name="express_delivery" id="express" value="5" /> 
             Express delivery (+ 5 EUR)
         </label>
             
         <button type="submit" class="btn btn-primary">Order!</button>
     </form>
 
-    <footer>You already ordered <strong>&euro; <?php echo $totalValue ?></strong> in pizza(s) and drinks.</footer>
+    <footer>You already ordered <strong id="target">&euro; <?php echo $totalValue ?></strong> in pizza(s) and drinks.</footer>
 </div>
 
 <style>
@@ -89,5 +89,6 @@
         text-align: center;
     }
 </style>
+<script src="./index.js"></script>
 </body>
 </html>
