@@ -24,18 +24,3 @@
 // function sum(a) {
 //     return (a.length && parseFloat(a[0]) + sum(a.slice(1))) || 0;
 // }
-
-const greenMessage = document.getElementById('alert')
-const error = document.getElementById('incorrect')
-
-if (greenMessage.textContent == "") {
-    greenMessage.style.display = 'none'
-} else {
-    greenMessage.style.display = 'block'
-}
-
-if (error.textContent == "") {
-    error.style.display = 'none'
-} else {
-    error.style.display = 'block'
-}
