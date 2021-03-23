@@ -107,7 +107,7 @@
     .top {
         height: 400px;
         padding-top: 100px;
-        background-image: url("https://pixabay.com/images/id-1344720/image.png");
+        background-image: url("https://cdn.pixabay.com/photo/2016/04/21/22/50/pizza-1344720_960_720.jpg");
         background-size: 100%;
         background-position: right center;
         margin-bottom: 1%;
