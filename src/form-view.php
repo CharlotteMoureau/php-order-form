@@ -100,17 +100,14 @@
 <style>
 
     body {
-        background-image: url(./img/slate.jpg);
-        background-size: 60%;
+        background-color: #394042;
         color: white;
     }
 
     .top {
         height: 400px;
         padding-top: 100px;
-        background-image: url(./img/pizza.jpg);
-        background-size: 100%;
-        background-position: right center;
+        background-color: #a76514;
         margin-bottom: 1%;
     }
 
