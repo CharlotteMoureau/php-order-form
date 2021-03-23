@@ -29,4 +29,4 @@ I added a "nice to have feature": I changed the checkboxes to an input field to 
 
 #### This was me during the project:
 
-[dog loves pizza gif](https://media.giphy.com/media/9fuvOqZ8tbZOU/giphy.gif)
+![dog loves pizza gif](https://media.giphy.com/media/9fuvOqZ8tbZOU/giphy.gif)
