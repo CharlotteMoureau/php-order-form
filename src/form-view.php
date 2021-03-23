@@ -100,8 +100,7 @@
 <style>
 
     body {
-        background-image: url("https://image.freepik.com/free-photo/stone-texture_1194-5557.jpg");
-        background-size: 50%;
+        background-image: url("https://image.freepik.com/free-photo/stone-texture_1194-5878.jpg");
         color: white;
     }
 
