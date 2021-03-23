@@ -99,10 +99,60 @@
 </div>
 
 <style>
+
+    body {
+        background-image: url(img/slate.jpg);
+        background-size: 60%;
+        color: white;
+    }
+
+    .top {
+        height: 400px;
+        padding-top: 100px;
+        background-image: url(img/pizza.jpg);
+        background-size: 100%;
+        background-position: right center;
+        margin-bottom: 1%;
+    }
+
+    h1 {
+        font-size: 5em;
+        text-align: center;
+        color: rgb(255, 243, 175);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        margin-bottom: 100px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2%;
+    }
+
+    .checkbox {
+        width: 100px;
+        margin-bottom: 1%;
+    }
+
     footer {
         text-align: center;
     }
 </style>
-<script src="./index.js"></script>
+<script>
+    const greenMessage = document.getElementById('alert')
+    const error = document.getElementById('incorrect')
+
+    if (greenMessage.textContent == "") {
+        greenMessage.style.display = 'none'
+    } else {
+        greenMessage.style.display = 'block'
+    }
+
+    if (error.textContent == "") {
+        error.style.display = 'none'
+    } else {
+        error.style.display = 'block'
+    }
+</script>
 </body>
 </html>
