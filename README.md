@@ -27,6 +27,10 @@ This was a solo project carried out from the 18th to the 23th of March 2021 as p
 
 I added a "nice to have feature": I changed the checkboxes to an input field to accept a quantity.
 
+## Deployed on Heroku:
+
+### [Here!](https://php-order-form.herokuapp.com/)
+
 #### This was me during the project:
 
 ![dog loves pizza gif](https://media.giphy.com/media/9fuvOqZ8tbZOU/giphy.gif)
