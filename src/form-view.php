@@ -107,7 +107,7 @@
     .top {
         height: 400px;
         padding-top: 100px;
-        background-image: url("https://pixabay.com/images/id-1344720/");
+        background-image: url("https://pixabay.com/images/id-1344720/image.png");
         background-size: 100%;
         background-position: right center;
         margin-bottom: 1%;
