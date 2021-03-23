@@ -132,7 +132,7 @@ if (isset($email, $street, $streetNum, $city, $zipcode, $totalValue, $deliveryTi
 
     if ($totalValue == 0) {
         $noOrder = "No product ordered. Invalid order.";
-    } elseif ($totalValue == 0 && isset($_POST['express_delivery'])) {
+    } elseif ($totalValue == 5 && isset($_POST['express_delivery'])) {
         $noOrder = "No product ordered. Invalid order.";
     } else {
         $correctForm = "<h3>Buon appetito!</h3> </br>Your order placed with the email <strong>'$email'</strong> has been completed. </br>You payed <strong>&euro; $totalValue</strong></br> Your order has been sent to the following address: <strong>$street n° $streetNum, $city $zipcode</strong>.</br>Delivery is expected at: <strong>$deliveryTime</strong>";
