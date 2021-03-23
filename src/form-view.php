@@ -127,6 +127,10 @@
         margin-bottom: 2%;
     }
 
+    span {
+        color: red;
+    }
+
     .checkbox {
         width: 100px;
         margin-bottom: 1%;
